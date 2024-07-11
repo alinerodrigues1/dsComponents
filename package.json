@@ -71,6 +71,8 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
+    "@types/react-icons": "^3.0.0",
+    "react-icons": "^5.2.1",
     "react-scripts": "^5.0.1",
     "storybook": "^8.2.1",
     "styled-components": "^6.1.11"
