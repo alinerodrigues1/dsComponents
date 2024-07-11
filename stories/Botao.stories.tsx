@@ -7,6 +7,6 @@ export default {
     component: Botao
 } as ComponentMeta<typeof Botao>
 
-const Template: ComponentStory<typeof Botao> = () => <Botao />
+const Template: ComponentStory<typeof Botao> = () => <Botao children={'Clique aqui'} />
 
 export const Primario = Template.bind({})

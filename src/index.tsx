@@ -15,3 +15,4 @@ export const Thing: FC<Props> = ({ children }) => {
 };
 
 export * from './components/botao'
+export * from './components/card'

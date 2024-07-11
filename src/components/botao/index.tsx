@@ -1,10 +1,13 @@
-import React from "react";
-import { Button } from './style'
+import React, { ReactNode } from "react";
+import { StyledButton } from './style'
 
-export const Botao = () => {
+export interface ButtonProps {
+    children: ReactNode
+}
+export const Botao = ({children}:ButtonProps) => {
     return (
-        <Button>
-            Clique aqui
-        </Button>
+        <StyledButton>
+            {children}
+        </StyledButton>
     )
 }

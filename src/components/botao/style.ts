@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
-export const Button = styled.button`
+export const StyledButton = styled.button`
     background: #0F62C1;
     border: solid 1px #0F62C1;
     color: #fff;
     padding: 8px 16px;
     font-size: 16px;
     border-radius: 4px;
+    font-family: "Nunito Sans", sans-serif;
 
     &:hover {
         background: #07448a;
